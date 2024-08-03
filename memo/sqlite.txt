@@ -1,0 +1,18 @@
+SQLite3のバージョン確認
+sqlite3 --version
+
+SQLite3のDBファイルにアクセスする
+sqlite3 testdb.sqlite3
+
+SQLite3プロンプトの終了
+sqlite> .exit
+
+DBにあるテーブル一覧を確認する
+sqlite> .table
+
+https://qiita.com/matsu_qiita/items/e9df259d68534db27c01
+
+
+https://javadrive.jp/sqlite/select/index1.html
+
+https://www.javadrive.jp/sqlite/select/index1.html

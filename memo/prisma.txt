@@ -1,0 +1,31 @@
+●Prismaの基本操作
+
+https://qiita.com/Erytheia/items/f134f210789842340066
+
+https://zenn.dev/smish0000/articles/f1a6f463417b65
+
+Prismaの初期化実装
+npx prisma init
+
+Prisma Client作成
+npx prisma generate
+
+マイグレーション実行
+データベーステーブルを作成
+npx prisma migrate dev --name init
+
+起動する
+npx prisma studio
+
+●ReactフレームワークのRemixでTODOアプリ作成（shadcn/ui, Prisma使用）
+https://qiita.com/fsdg-takada/items/5a24382bc73c5bd85c2d
+
+実行する際は以下で確認
+node prisma/script.js 
+
+-----
+
+複数登録するとき
+https://www.prisma.io/docs/orm/prisma-client/queries/crud
+
+-----
