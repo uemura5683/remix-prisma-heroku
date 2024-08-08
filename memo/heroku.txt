@@ -1,5 +1,10 @@
 https://dashboard.heroku.com/apps
 
+以下のコマンド実行しアプリが作成されます。
+heroku create
+
+●トラブルシューティング
+
 Error: To create an app, verify your account by adding payment information. Verify now at 
  ›   https://heroku.com/verify Learn more at https://devcenter.heroku.com/articles/account-verification
 
@@ -15,3 +20,19 @@ Herokuはクレジットカード情報を登録すると1000時間/月の分だ
 Creating app... done, ⬢ secure-dusk-12923
 https://secure-dusk-12923-2eedeb43864e.herokuapp.com/ | https://git.heroku.com/secure-dusk-12923.git
 
+上記がアプリのURLである
+後はgithubと接続してデプロイするだけ
+
+
+参考記事
+https://qiita.com/gogo_tomoya/items/0c422603226a11066ef7
+https://jp.heroku.com/what
+https://www.kagoya.jp/howto/it-glossary/develop/heroku/
+https://blog.furu07yu.com/entry/how-to-choose-heroku-dyno
+
+
+管理画面
+https://dashboard.heroku.com/apps
+
+URL
+https://secure-dusk-12923-2eedeb43864e.herokuapp.com/
