@@ -33,6 +33,6 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
 export default function Index() {
   const data = useLoaderData<typeof loader>();
   return (
-    <>{JSON.stringify(data, null, 2)}</>
+    <pre>{JSON.stringify(data, null, 2)}</pre>
   );
 }

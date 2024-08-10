@@ -8,6 +8,6 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
 export default function Index() {
   const todos = useLoaderData<typeof loader>();
   return (
-    <>{JSON.stringify(todos, null, 2)}</>
+    <pre>{JSON.stringify(data, null, 2)}</pre>
   );
 }

@@ -54,7 +54,7 @@ function handleBotRequest(
           const body = new PassThrough();
           const stream = createReadableStreamFromReadable(body);
 
-          responseHeaders.set("Content-Type", "application/json;");
+          responseHeaders.set("Content-Type", "text/html;");
 
           resolve(
             new Response(stream, {
@@ -101,7 +101,7 @@ function handleBrowserRequest(
           const body = new PassThrough();
           const stream = createReadableStreamFromReadable(body);
 
-          responseHeaders.set("Content-Type", "application/json;");
+          responseHeaders.set("Content-Type", "text/html;");
 
           resolve(
             new Response(stream, {
